@@ -9,7 +9,7 @@ import './styles.css';
 import heroes from '../../assets/heroes.png';
 import logo from '../../assets/logo.svg';
 
-export default function Login() {
+export default function Login() {''
   const [id, setId] = React.useState('');
 
   const history = useHistory();
@@ -25,7 +25,7 @@ export default function Login() {
 
       history.push('/profile');
     } catch (err) {
-      toast.error('Ops, você tentou entrar sem o ID, ou seu id está incorreto.')
+      toast.error('Ops, você tentou entrar sem o ID, ou seu ID está incorreto.')
     }
   }
 
