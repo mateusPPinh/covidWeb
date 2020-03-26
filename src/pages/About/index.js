@@ -4,6 +4,7 @@ import statements from '../../utils/statements';
 
 import './styles.css';
 import logo from '../../assets/logo.svg';
+import heroes from '../../assets/heroes.png';
 
 export default function About() {
   return (
@@ -24,6 +25,11 @@ export default function About() {
 
       <h1>Avisos contra tentativas de má indole.</h1>
       <p>{statements.userStatements}</p>
+
+      <div className="statements-content">
+        <h1>FIQUE EM CASA</h1>
+        <img src={heroes} alt="heroes" />
+      </div>
 
       <footer>
         Desenvolvido por Mateus - © 2020
