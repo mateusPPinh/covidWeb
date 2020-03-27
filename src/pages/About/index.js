@@ -20,6 +20,9 @@ export default function About() {
       <h1>Como funciona?</h1>
       <p>{statements.about}</p>
 
+      <h1>Como usar a aplicação?</h1>
+      <p>{statements.instructionForUse}</p>
+
       <h1>Privacidade do Usuário</h1>
       <p>{statements.userPrivacy}</p>
 

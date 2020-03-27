@@ -46,6 +46,7 @@
 .full-content footer a {
   text-decoration: none;
   color: #333;
+  margin-top: 30px;
 }
 
 .full-content footer a:hover {
