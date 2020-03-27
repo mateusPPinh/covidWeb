@@ -14,7 +14,7 @@ export default function Routes() {
       <Route path='/register' component={Register} />
       <Route path='/profile' component={Profile} />
       <Route path='/incidents/new' component={NewCase} />
-      <Route path='/' exact component={About} />
+      <Route path='/' exact component={About} /> 
     </Switch>
   )
 }
