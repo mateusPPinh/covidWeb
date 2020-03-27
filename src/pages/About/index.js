@@ -27,7 +27,7 @@ export default function About() {
       <p>{statements.userStatements}</p>
 
       <div className="statements-content">
-        <h1>FIQUE EM CASA</h1>
+        <h1>Fique em casa</h1>
         <img src={heroes} alt="heroes" />
       </div>
 
