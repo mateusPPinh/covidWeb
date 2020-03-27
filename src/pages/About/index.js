@@ -40,7 +40,7 @@ export default function About() {
       </div>
 
       <footer>
-        Desenvolvido por Mateus - © 2020
+        Desenvolvido por M - © 2020
         <Link to='/home'>Ir para página inicial</Link>
       </footer>
     </div>
