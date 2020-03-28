@@ -6,7 +6,7 @@ import { FiLogIn, FiBookOpen } from 'react-icons/fi'
 import api from '../../services/api';
 
 import './styles.css';
-import heroes from '../../assets/heroes.png';
+import girl from '../../assets/girl.png';
 import logo from '../../assets/logo.svg';
 
 export default function Login() {''
@@ -43,18 +43,18 @@ export default function Login() {''
           />
           <button className="button" type="submit">Entrar</button>
 
-          <Link className="back-link" to="/register">
-            <FiLogIn size={16} color="#333" style={{marginRight: 8}} />
+          <Link className="back-link" to="/register" style={{color: "#fff"}}>
+            <FiLogIn size={16} color="#fff" style={{marginRight: 8}} />
             Não tenho conta
           </Link>
-          <Link className="back-link" to="/">
-            <FiBookOpen size={16} color="#333" style={{marginRight: 8}} />
+          <Link className="back-link" to="/" style={{color: "#fff"}}>
+            <FiBookOpen size={16} color="#fff" style={{marginRight: 8}} />
             Sobre - Termos de uso
           </Link>
         </form>
       </section>
 
-      <img src={heroes} alt="people" />
+      <img src={girl} alt="people" />
     </div>
   );
 }

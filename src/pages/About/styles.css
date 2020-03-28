@@ -14,7 +14,7 @@
 .full-content header span {
   font-size: 20px;
   margin-left: 24px;
-  color: #333;
+  color: #fff;
 }
 
 .full-content header img {
@@ -24,12 +24,12 @@
 .full-content h1 {
   margin-top: 80px;
   margin-bottom: 24px;
-  color: #333;
+  color: #fff;
 }
 
 .full-content p {
   font-size: 16px;
-  color: #333;
+  color: #fff;
   line-height: 24px;
 }
 .full-content footer {
@@ -39,13 +39,13 @@
   margin-top: 30px;
 
   font-size: 16px;
-  color: #333;
+  color: #fff;
   font-weight: bold;
 }
 
 .full-content footer a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   margin-top: 30px;
 }
 

@@ -4,7 +4,7 @@ import statements from '../../utils/statements';
 
 import './styles.css';
 import logo from '../../assets/logo.svg';
-import heroes from '../../assets/heroes.png';
+import girl from '../../assets/girl.png';
 
 export default function About() {
   return (
@@ -24,15 +24,15 @@ export default function About() {
       <p>{statements.instructionForUse}</p>
 
       <h1>Ficou com dúvida de como utilizar a plataforma web? Assista o vídeo.</h1>
-      <a href="https://youtu.be/yWO2egpa3Gg" target="_blank" rel="noopener">Clique aqui</a>
+      <a style={{color: "#fff"}} href="https://youtu.be/yWO2egpa3Gg" target="_blank" rel="noopener">Clique aqui</a>
 
       <h1>Instalação da aplicação mobile</h1>
       <p>{statements.instalationGuides}</p>
 
-      <a href="https://drive.google.com/open?id=12VoNY09jhmiFSKzY3xfiY8U_x6j17kD6" target="_blank" rel="noopener">Clique aqui</a>
+      <a style={{color: "#fff"}} href="https://drive.google.com/open?id=12VoNY09jhmiFSKzY3xfiY8U_x6j17kD6" target="_blank" rel="noopener">Clique aqui</a>
 
       <h1>Ficou com dúvida de como funciona o app mobile? Veja aqui:</h1>
-      <a href="https://youtu.be/hR353K0JE24" target="_blank" rel="noopener">Clique aqui</a>
+      <a style={{color: "#fff"}} href="https://youtu.be/hR353K0JE24" target="_blank" rel="noopener">Clique aqui</a>
 
       <h1>Privacidade do Usuário</h1>
       <p>{statements.userPrivacy}</p>
@@ -42,7 +42,7 @@ export default function About() {
 
       <div className="statements-content">
         <h1>Fique em casa</h1>
-        <img src={heroes} alt="heroes" />
+        <img src={girl} alt="heroes" />
       </div>
 
       <footer>
