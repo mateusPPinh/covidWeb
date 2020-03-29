@@ -47,6 +47,7 @@
   text-decoration: none;
   color: #fff;
   margin-top: 30px;
+  align-items: center;
 }
 
 .full-content footer a:hover {

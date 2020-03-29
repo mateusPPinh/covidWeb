@@ -22,11 +22,18 @@
 .logo-container section.form form h1 {
   font-size: 32px;
   margin-bottom: 32px;
-  color: #fafafa;
+  color: #333;
 }
 
 .menu-content {
   display: flex;
 }
 
-
+.register-container  {
+  width: 483px;
+  padding: 96px;
+  background: #fafafa;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+}

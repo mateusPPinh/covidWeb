@@ -30,6 +30,7 @@ export default function Login() {''
   }
 
   return (
+    <div class="register-container">
     <div className="logo-container">
       <section className="form">
         <img src={logo} alt='logo' />
@@ -43,17 +44,18 @@ export default function Login() {''
           />
           <button className="button" type="submit">Entrar</button>
 
-          <Link className="back-link" to="/register" style={{color: "#fff"}}>
-            <FiLogIn size={16} color="#fff" style={{marginRight: 8}} />
+          <Link className="back-link" to="/register" style={{color: "#333"}}>
+            <FiLogIn size={16} color="#333" style={{marginRight: 8}} />
             Não tenho conta
           </Link>
-          <Link className="back-link" to="/" style={{color: "#fff"}}>
-            <FiBookOpen size={16} color="#fff" style={{marginRight: 8}} />
+          <Link className="back-link" to="/" style={{color: "#333"}}>
+            <FiBookOpen size={16} color="#333" style={{marginRight: 8}} />
             Sobre - Termos de uso
           </Link>
         </form>
       </section>
 
+      </div>
       <img src={girl} alt="people" />
     </div>
   );
