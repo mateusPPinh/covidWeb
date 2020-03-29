@@ -30,8 +30,15 @@ export default function Login() {''
   }
 
   return (
-    <div class="register-container">
-    <div className="logo-container">
+    <div 
+      className="logo-container" 
+      style={{background:"#fff", 
+      padding: 96, 
+      borderRadius:8, 
+      maxWidth: 1120,   
+      boxSshadow: "0 0 100 rgba(0, 0, 0, 0.1)"
+    }}>
+      
       <section className="form">
         <img src={logo} alt='logo' />
 
@@ -55,8 +62,7 @@ export default function Login() {''
         </form>
       </section>
 
-      </div>
       <img src={girl} alt="people" />
-    </div>
+      </div>
   );
 }

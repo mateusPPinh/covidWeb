@@ -43,22 +43,22 @@
   font-weight: bold;
 }
 
-.full-content footer a {
-  text-decoration: none;
-  color: #fff;
-  margin-top: 30px;
-  align-items: center;
-}
-
-.full-content footer a:hover {
-  opacity: 0.8;
-}
-
 .statements-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
 }
+
+.full-content footer a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.full-content footer a:hover {
+  opacity: 0.8;
+}
+
 
 
