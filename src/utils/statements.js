@@ -4,6 +4,6 @@ module.exports = {
   userPrivacy: 'Todos os dados inseridos nessa plataforma estão seguros, para proteger ainda mais o usuário, utilizei um “id”, ou seja, identidade, ao se cadastrar na plataforma um ID será gerado, números aleatórios que não correm o menor risco de ser descoberto. Assim, não sendo necessário colocar senhas ou outros dados, o admin por trás do app, não terá acesso a essas informações, são todas criptografadas assim que o registro é feito na plataforma.',
   userStatements: 'Quanto a alguma tentativa de uso inadequado da plataforma, como estamos lidando com usuários reais, partners de segurança foram adotados para controle e monitoramento, mas sempre acreditando nas pessoas, torçamos que não haja alguma tentativa de golpe e outros.',
   instalationGuides: 'Por hora, a aplicação funcionará somente em Android! Como é um projeto sem qualquer tipo de fim lucrativo, não hospedarei nas lojas de aplicativos. Baixe a APK, no seu android vá até “Configurações”, depois vá até “Segurança” e encontre a opção “FONTES DESCONHECIDAS”, ative! Depois disso é só instalar e aguardar.',
-  doubtAboutUse: 'Se você ficou com dúvidas de como usar a plataforma web, assista esse víde aqui:',
+  doubtAboutUse: 'Se você ficou com dúvidas de como usar a plataforma web, assista esse vídeo aqui:',
   doubtMobileUsage: 'Veja como funciona a aplicação mobile:'
 }
