@@ -6,6 +6,8 @@ import './styles.css';
 import logo from '../../assets/logo.svg';
 import girl from '../../assets/girl.png';
 
+import ArrowComponent from '../../components/Arrows';
+
 export default function About() {
   const [showWorks, setShowWorks] = useState(false);
   const [useApp, setUseApp] = useState(false);
@@ -14,6 +16,7 @@ export default function About() {
   const [doubt, setDoubt] = useState(false);
   const [privacy, setPrivacy] = useState(false);
   const [stataments, setStatements] = useState(false);
+  const [open, isOpen] = useState(false);
   
   return (
     <div className="full-content">
@@ -26,7 +29,9 @@ export default function About() {
       </header>
 
       <section className="section-all" 
-        style={{width: "100%", 
+      style=
+      {{
+        width: "100%", 
         margin: "200px auto 0px", 
         display: "block"
       }}>
@@ -34,6 +39,7 @@ export default function About() {
         <button onClick={() => setShowWorks(!showWorks)} type="button">
         <span>I.</span>
         <strong>Como funciona?</strong>
+        <ArrowComponent />
         </button>
         {showWorks && <p>{statements.about}</p>}
       </div>
@@ -42,6 +48,7 @@ export default function About() {
         <button onClick={() => setUseApp(!useApp)} type="button">
         <span>II.</span>
         <strong>Como usar a aplicação?</strong>
+        <ArrowComponent />
         </button>
         {useApp && <p>{statements.instructionForUse}</p>}
       </div>
@@ -50,11 +57,17 @@ export default function About() {
         <button onClick={() => setHow(!how)} type="button">
         <span>III.</span>
         <strong>Dúvidas de uso na Web? Assista</strong>
+        <ArrowComponent />
         </button>
         {how && 
         <p>
           {statements.doubtAboutUse}
-          <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yWO2egpa3Gg&feature=youtu.be">Clique</a>
+          <a 
+           target="_blank" 
+           rel="noopener" 
+           href="https://www.youtube.com/watch?v=yWO2egpa3Gg&feature=youtu.be">
+           Clique
+          </a>
         </p>}
       </div>
 
@@ -62,11 +75,17 @@ export default function About() {
         <button onClick={() => setMobile(!mobile)} type="button">
         <span>IV.</span>
         <strong>Instalação da aplicação mobile</strong>
+        <ArrowComponent />
         </button>
         {mobile && 
         <p>
           {statements.instalationGuides}
-          <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/12VoNY09jhmiFSKzY3xfiY8U_x6j17kD6/view">Clique aqui para baixar</a>
+          <a 
+            target="_blank" 
+            rel="noopener" 
+            href="https://drive.google.com/file/d/12VoNY09jhmiFSKzY3xfiY8U_x6j17kD6/view">
+            Clique aqui para baixar
+          </a>
         </p>}
       </div>
 
@@ -75,10 +94,16 @@ export default function About() {
         <button onClick={() => setDoubt(!doubt)} type="button">
         <span>V.</span>
         <strong>Dúvidas sobre o app? Assista</strong>
+        <ArrowComponent />
         </button>
         {doubt && <p>
           {statements.doubtMobileUsage}
-          <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=hR353K0JE24&feature=youtu.be">Clique</a>
+          <a 
+            target="_blank" 
+            rel="noopener" 
+            href="https://www.youtube.com/watch?v=hR353K0JE24&feature=youtu.be">
+            Clique
+          </a>
 
         </p>}
       </div>
@@ -87,6 +112,7 @@ export default function About() {
         <button onClick={() => setPrivacy(!privacy)} type="button">
         <span>VI.</span>
         <strong>Privacidade do Usuário</strong>
+        <ArrowComponent />
         </button>
         {privacy && <p>{statements.userPrivacy}</p>}
       </div>
@@ -95,6 +121,7 @@ export default function About() {
         <button onClick={() => setStatements(!stataments)} type="button">
         <span>VII.</span>
         <strong>Avisos contra tentativas de má indole</strong>
+        <ArrowComponent />
         </button>
         {stataments && <p>{statements.userStatements}</p>}
       </div>
