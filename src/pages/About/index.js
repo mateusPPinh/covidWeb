@@ -117,7 +117,7 @@ export default function About() {
         {privacy && <p>{statements.userPrivacy}</p>}
       </div>
 
-      <div className="toggle-content">
+  cd    <div className="toggle-content">
         <button onClick={() => setStatements(!stataments)} type="button">
         <span>VII.</span>
         <strong>Avisos contra tentativas de má indole</strong>

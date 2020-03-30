@@ -14,7 +14,7 @@ export default createGlobalStyle`
 
   body {
     font: 400 14px Lato, sans-serif;
-    background: #395676;
+    background: #130f17;
     -webkit-font-smoothing: antialiased !important;
   }
 
@@ -82,5 +82,4 @@ export default createGlobalStyle`
   .back-link {
   opacity: 0.8;
 }
-
 `;
