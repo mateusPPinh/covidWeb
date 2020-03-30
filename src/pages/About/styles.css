@@ -101,6 +101,11 @@
   margin-top: 30px;
 }
 
+.full-content footer {
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .full-content footer a {
   text-decoration: none;
   color: #fff;

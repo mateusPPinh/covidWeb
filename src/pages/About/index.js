@@ -16,7 +16,6 @@ export default function About() {
   const [doubt, setDoubt] = useState(false);
   const [privacy, setPrivacy] = useState(false);
   const [stataments, setStatements] = useState(false);
-  const [open, isOpen] = useState(false);
   
   return (
     <div className="full-content">
@@ -132,8 +131,9 @@ export default function About() {
         <img src={girl} alt="heroes" />
       </div>
 
+      <hr />
       <footer>
-        Desenvolvido com ❤️ por M - © 2020
+        Desenvolvido com ❤️ por Mateus - © 2020 Todos os Direitos Reservados
         <Link to='/home'>Ir para página inicial</Link>
       </footer>
     </div>
