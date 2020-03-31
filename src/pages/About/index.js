@@ -17,6 +17,7 @@ export default function About() {
   const [doubt, setDoubt] = useState(false);
   const [privacy, setPrivacy] = useState(false);
   const [stataments, setStatements] = useState(false);
+  const [thanks, setThanks] = useState(false);
   
   return (
     <div className="full-content">
@@ -127,12 +128,12 @@ export default function About() {
       </div>
 
       <div className="toggle-content">
-        <button onClick={() => setStatements(!stataments)} type="button">
+        <button onClick={() => setThanks(!thanks)} type="button">
         <span>VIII.</span>
         <strong>Agradecimentos</strong>
         <ArrowComponent />
         </button>
-        {stataments && <p>{statements.thanks}</p>}
+        {thanks && <p>{statements.thanks}</p>}
       </div>
       </section>
      
