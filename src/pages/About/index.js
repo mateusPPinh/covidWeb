@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Freschat from 'react-freshchat';
 import statements from '../../utils/statements';
 
 import './styles.css';
@@ -130,7 +131,12 @@ export default function About() {
         <h1>Fique em casa</h1>
         <img src={girl} alt="heroes" />
       </div>
-
+      <Freschat 
+        token="e038ab97-82c4-4a38-9958-88a8d00e3730"
+        host="https://wchat.freshchat.com"
+        firstName="Be The Hero"
+      />
+      
       <hr />
       <footer>
         Desenvolvido com ❤️ por Mateus - © 2020 Todos os Direitos Reservados
