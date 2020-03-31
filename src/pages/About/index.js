@@ -125,6 +125,15 @@ export default function About() {
         </button>
         {stataments && <p>{statements.userStatements}</p>}
       </div>
+
+      <div className="toggle-content">
+        <button onClick={() => setStatements(!stataments)} type="button">
+        <span>VIII.</span>
+        <strong>Agradecimentos</strong>
+        <ArrowComponent />
+        </button>
+        {stataments && <p>{statements.thanks}</p>}
+      </div>
       </section>
      
       <div className="statements-content">
