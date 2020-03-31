@@ -134,7 +134,7 @@ export default function About() {
       <Freschat 
         token="e038ab97-82c4-4a38-9958-88a8d00e3730"
         host="https://wchat.freshchat.com"
-        firstName="Be The Hero"
+        firstName="Be T. Hero"
       />
       
       <hr />
