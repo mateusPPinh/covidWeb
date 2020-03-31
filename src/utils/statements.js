@@ -6,5 +6,5 @@ module.exports = {
   instalationGuides: 'Por hora, a aplicação funcionará somente em Android! Como é um projeto sem qualquer tipo de fim lucrativo, não hospedarei nas lojas de aplicativos. Baixe a APK, no seu android vá até “Configurações”, depois vá até “Segurança” e encontre a opção “FONTES DESCONHECIDAS”, ative! Depois disso é só instalar e aguardar.',
   doubtAboutUse: 'Se você ficou com dúvidas de como usar a plataforma web, assista esse vídeo aqui:',
   doubtMobileUsage: 'Veja como funciona a aplicação mobile:',
-  thanks: 'Agradecimento a Diego, pelo empenho em criar um projeto open source que possibilita expandar em ideias e conhecimento.'
+  thanks: 'Agradecimento a Diego, pelo empenho em criar um projeto open source que possibilita expandir em ideias e conhecimento.'
 }
